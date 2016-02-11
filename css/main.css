@@ -1,0 +1,1191 @@
+@font-face {
+    font-family: 'GothamPro-Medium';
+    src: url('/fonts/GothamPro-Medium.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Bold';
+    src: url('/fonts/HelveticaNeue-Bold.eot');
+    src: url('/fonts/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/HelveticaNeue-Bold.woff') format('woff'), url('/fonts/HelveticaNeue-Bold.ttf') format('truetype'), url('/fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrroman';
+    src: url('helveticaneuecyr-roman-webfont.eot');
+    src: url('helveticaneuecyr-roman-webfont.eot?#iefix') format('embedded-opentype'), url('helveticaneuecyr-roman-webfont.woff2') format('woff2'), url('helveticaneuecyr-roman-webfont.woff') format('woff'), url('helveticaneuecyr-roman-webfont.ttf') format('truetype'), url('helveticaneuecyr-roman-webfont.svg#helveticaneuecyrroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Medium';
+    src: url('/fonts/HelveticaNeue-Medium.eot');
+    src: url('/fonts/HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype'), url('/fonts/HelveticaNeue-Medium.woff') format('woff'), url('/fonts/HelveticaNeue-Medium.ttf') format('truetype'), url('/fonts/HelveticaNeue-Medium.svg#HelveticaNeue-Medium') format('svg');
+}
+
+body {
+    font: 100%/1.5 Arial, Helvetica;
+    width: 100%;
+    min-width: 480px;
+}
+
+header {
+    width: 1140px;
+    color: #fff;
+    padding-bottom: 76px;
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    background-color: #3a3d42;
+    color: #eef2f7;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.header-wrapper {
+    background: repeat url("../img/header_bg.jpg") center;
+    z-index: 1;
+    position: relative;
+}
+
+.big_block-wrapper {
+    background: url("../img/background.jpg");
+    width: 100%;
+}
+
+.main-content-wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.text-block-wrapper {
+    width: 100%;
+    background: #f6f6f6;
+}
+
+.logo p {
+    font: normal 12px/40px helveticaneuecyrroman;
+    color: #c8c8c8;
+    font-family: inherit;
+}
+
+.logo {
+    float: left;
+    width: 195px;
+    background: #fff;
+    text-align: center;
+    height: 40px;
+}
+
+.search-pro {
+    font: bold 13px/20px Helvetica Neue;
+    color: #dce2ec;
+    float: left;
+    margin: 11px 0 0 55px;
+}
+
+.experts-qa {
+    font: normal 12px/20px Helvetica Neue;
+    color: #dce2ec;
+    float: left;
+    margin: 11px 0 0 50px;
+}
+
+.search-pro:before {
+    content: "";
+    float: left;
+    position: relative;
+    display: block;
+    background: url(../img/Sprite.png) -160px -68px no-repeat;
+    width: 11px;
+    height: 11px;
+    top: 4px;
+    left: -10px;
+}
+
+.experts-qa:before {
+    content: "";
+    float: left;
+    position: relative;
+    display: block;
+    background: url(../img/Sprite.png) -160px -52px no-repeat;
+    width: 14px;
+    height: 14px;
+    top: 3px;
+    left: -8px;
+}
+
+.icon-inner-txt {
+    font: normal 13px Helvetica Neue;
+    color: #dce2ec;
+    padding: 0px 0 0 34px;
+}
+
+.become-pro {
+    position: relative;
+    width: 130px;
+    height: 37px;
+    line-height: 37px;
+}
+
+.icon-inner-txt:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../img/Sprite.png) -164px -135px no-repeat;
+    width: 11px;
+    height: 13px;
+    top: 13px;
+    left: 13px;
+}
+
+.bell {
+    position: relative;
+    width: 66px;
+    height: 37px;
+}
+
+.bell:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../img/Sprite.png) -160px -34px no-repeat;
+    width: 15px;
+    height: 16px;
+    top: 10px;
+    left: 13px;
+}
+
+.drop-icon-text {
+    position: absolute;
+    margin: 12px 1px 0 40px;
+    color: #dce2ec;
+    font: normal 10px Montserrat, sans-serif;
+}
+
+.drop-icon-text:before {
+    content: "";
+    float: left;
+    display: block;
+    background: url(../img/Sprite.png) -100px -215px no-repeat;
+    width: 22px;
+    height: 18px;
+    position: absolute;
+    z-index: -1;
+    left: -9px;
+    top: -2px;
+}
+
+.face-icon {
+    background: url(../img/Sprite.png) -116px -37px no-repeat;
+    width: 39px;
+    height: 39px;
+}
+
+.header-icon {
+    float: right;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    background-color: #292b2e;
+    margin: 0 10px 0 0;
+    z-index: 0;
+}
+
+.triangle-icon {
+    float: right;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-top: 6px solid #4a87f8;
+    margin: 18px 13px 0 0;
+}
+
+.top-icons {
+    width: 100%;
+    border-bottom: 1px solid #232326;
+    margin: 18px auto 0 auto;
+    padding-bottom: 18px;
+}
+
+.header-navigation {
+    list-style-type: none;
+    display: flex;
+    margin: 9px 0px 0 -8px;
+    font: normal 12px/18px Helvetica Neue;
+    color: #a7a7a7;
+}
+
+.header-navigation-div {
+    width: 100%;
+    border-bottom: 1px solid #232326;
+    margin: 0 auto;
+    padding-bottom: 9px;
+}
+
+.header-bio-div {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 9px;
+}
+
+.header-navigation-item:before {
+    content: "/     ";
+    color: #929292;
+}
+
+.header-navigation-item:first-child:before {
+    content: " ";
+    color: #929292;
+}
+
+.header-navigation-item {
+    padding: 0 0 0 8px;
+}
+
+a {
+    color: #929292;
+    text-decoration: none;
+}
+
+.header-navigation-item a:hover {
+    color: #BBB;
+}
+
+.image-wrap {
+    float: left;
+    margin: 30px 0 0 0;
+}
+
+.avatar-box {
+    overflow: hidden;
+    border-radius: 50% 50%;
+}
+
+.avatar {
+    width: 100%;
+}
+
+.name {
+    float: left;
+    margin: 53px 0px 0 31px;
+}
+
+.name h3 {
+    font: bold 24px/24px Helvetica Neue;
+    padding: 0 0 16px 0px;
+    position: relative;
+}
+
+.name p {
+    font: normal 13px/20px Helvetica Neue;
+    padding: 0px 0 0 19px;
+    position: relative;
+}
+
+.name h3:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../img/Sprite.png) -27px -218px no-repeat;
+    width: 13px;
+    height: 13px;
+    top: 8px;
+    left: 178px;
+}
+
+.name p:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../img/Sprite.png) -164px -150px no-repeat;
+    width: 10px;
+    height: 13px;
+    top: 3px;
+    left: 1px;
+}
+
+.rate-block {
+    float: left;
+    margin: 59px 0 0 118px;
+}
+
+#reviewStars-input input:checked ~ label,
+#reviewStars-input label,
+#reviewStars-input label:hover,
+#reviewStars-input label:hover ~ label {
+    background: url('../img/spritesheet.png') no-repeat;
+    display: block;
+}
+
+#reviewStars-input {
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+#reviewStars-input input {
+    opacity: 0;
+    position: absolute;
+}
+
+#reviewStars-input input:checked ~ label {
+    width: 18px;
+    height: 16px;
+    background-position: -5px -6px;
+}
+
+#reviewStars-input label {
+    background-position: -33px -5px;
+    width: 18px;
+    height: 16px;
+    float: right;
+    cursor: pointer;
+    margin-right: 3px;
+    position: relative;
+    z-index: 1;
+}
+
+#reviewStars-input label:hover,
+#reviewStars-input label:hover ~ label {
+    width: 18px;
+    height: 16px;
+    background-position: -5px -6px;
+}
+
+.reviews-counter {
+    float: left;
+    text-decoration: underline;
+    font: 12px Helvetica Neue;
+    color: #fff;
+    margin: 3px 0 0 15px;
+}
+
+.registration-date {
+    margin: 36px 0 0 0;
+    font: 13px Helvetica;
+    color: #fff;
+}
+
+nav {
+    width: 1140px;
+    margin: -36px auto 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.navigation-list {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 1140px;
+    background-color: #fff;
+}
+
+.navigation-item {
+    float: left;
+    width: 375px;
+    border-left: 1px solid #eee;
+    border-bottom: 3px solid #f1f1f1;
+}
+
+.navigation-item:active {
+    -webkit-box-shadow: inset 0px 0px 5px 2px #4a86f8 !important;
+    box-shadow: inset 0px 0px 5px 2px #4a86f8 !important;
+    color: #929292;
+    border-left: none;
+}
+
+.navigation-item a {
+    display: block;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: bold;
+    color: #353535;
+}
+
+.navigation-item a:hover {
+    -moz-box-shadow: inset 0px -3px 0px 0px #4a87f8;
+    -webkit-box-shadow: inset 0px -3px 0px 0px #4a87f8;
+    box-shadow: inset 0px -3px 0px 0px #4a87f8;
+    color: #929292;
+}
+
+.active-nav-item {
+    position: relative;
+    background: #4a86f8;
+    border-left: 0px;
+}
+
+.active-nav-item a:hover {
+    color: #fff;
+}
+
+.active-nav-item a {
+    color: #fff;
+    box-shadow: none;
+    border: none;
+}
+
+.active-nav-item:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(74, 134, 248, 0);
+    border-top-color: #4a86f8;
+    border-width: 6px;
+    margin-left: -6px;
+}
+
+.big_block {
+    width: 1140px;
+    padding-bottom: 19px;
+    margin: 0 auto;
+}
+
+.client-stat {
+    width: 100%;
+    position: relative;
+    margin: 26px 0 0 30px;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    color: #4a86f8;
+}
+
+.client-stat:before {
+    content: "";
+    float: left;
+    display: block;
+    background: url(../img/Sprite.png) -156px -182px no-repeat;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 3px;
+    left: -29px;
+}
+
+.block1 {
+    float: left;
+    margin: 12px 0 0 0;
+}
+
+.block2 {
+    float: left;
+    margin: 12px 0 0 102px;
+}
+
+.block3 {
+    float: left;
+    margin: 12px 0 0 95px;
+}
+
+.Num {
+    font-family: Helvetica Neue;
+    font-size: 35px;
+    color: #4a86f8;
+}
+
+.words {
+    font-family: Helvetica Neue;
+    font-size: 18px;
+}
+
+.statics {
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    margin: -2px 0 0 0px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.main-text {
+    width: 750px;
+    float: left;
+    line-height: 1.67;
+}
+
+.title {
+    margin: 37px 0 0 0;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+}
+
+.Pilesos {
+    margin: 24px 0 0 0;
+}
+
+ul.text {
+    margin: 29px 0 0 0;
+}
+
+.text {
+    margin: 6px 0 15px 0;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    width: 715px;
+    padding-left: 0;
+    text-align: left;
+}
+
+.text li {
+    list-style-type: none;
+}
+
+.text li:before {
+    content: "- ";
+}
+
+.right-menu {
+    width: 360px;
+    float: right;
+    margin: -137px 0 0 0;
+}
+
+.verify-contact {
+    width: 100%;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: 0 0 12px #e8e8e8;
+    float: left;
+}
+
+.verification {
+    padding: 26px 0 0 10px;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    margin: 0px 0px 0px 16px;
+}
+
+.list-menu {
+    padding: 20px 0 25px 0px;
+}
+
+.list-menu li {
+    position: relative;
+    line-height: 45px;
+    list-style-type: none;
+    /*Убираем маркеры у списка */
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.list-menu li:hover {
+    background: #f6f6f6;
+}
+
+.check1,
+.check2,
+.check3,
+.check4,
+.check5,
+.check6,
+.check7,
+.checked1,
+.checked2,
+.checked3,
+.checked4,
+.checked5,
+.checked6,
+.checked7 {
+    padding-left: 70px;
+}
+
+.list-menu-link {
+    color: #4a86f8;
+    text-decoration: underline;
+    margin-left: 66px;
+}
+
+.check1:before,
+.check2:before,
+.check3:before,
+.check4:before,
+.check5:before,
+.check6:before,
+.check7:before,
+.check8:before,
+.check9:before,
+.check10:before,
+.check11:before,
+.check12:before,
+.checked1:before,
+.checked2:before,
+.checked3:before,
+.checked4:before,
+.checked5:before,
+.checked6:before,
+.checked7:before,
+.checked8:before,
+.checked9:before,
+.checked10:before,
+.checked11:before,
+.checked12:before {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 27px;
+}
+
+label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+#verify-input {
+    display: none;
+    /*Убираем стандартный чекбокс*/
+}
+
+#verify-input ~ .check1:before {
+    /*Привязываем к первому span"у картинку через before, в состоянии input"а :unchecked*/
+    width: 25px;
+    height: 20px;
+    background: url(../img/Sprite.png) -42px -96px no-repeat;
+}
+
+#verify-input:checked ~ .checked1:before {
+    /* Привязываем ко второму span"у картинку  в состоянии input"а :checked*/
+    width: 25px;
+    height: 20px;
+    background: url(../img/Sprite.png) -69px -109px no-repeat;
+}
+
+#verify-input:checked ~ .check1 {
+    /*В состоянии input"а :checked скрываем первый span вместе с его :before*/
+    display: none;
+}
+
+#verify-input:checked ~ .checked1 {
+    /*В состоянии input"а :checked выводим второй span из состояния hidden вместе с его :before*/
+    display: inline-block;
+}
+
+#verify-input ~ .check2:before {
+    width: 23px;
+    height: 24px;
+    background: url(../img/Sprite.png) -28px -171px no-repeat;
+}
+
+#verify-input:checked ~ .checked2:before {
+    width: 23px;
+    height: 24px;
+    background: url(../img/Sprite.png) -2px -172px no-repeat;
+}
+
+#verify-input:checked ~ .check2 {
+    display: none;
+}
+
+#verify-input:checked ~ .checked2 {
+    display: inline-block;
+}
+
+#verify-input ~ .check3:before {
+    width: 24px;
+    height: 26px;
+    background: url(../img/Sprite.png) -29px -143px no-repeat;
+}
+
+#verify-input:checked ~ .checked3:before {
+    width: 24px;
+    height: 26px;
+    background: url(../img/Sprite.png) -2px -144px no-repeat;
+}
+
+#verify-input:checked ~ .check3 {
+    display: none;
+}
+
+#verify-input:checked ~ .checked3 {
+    display: inline-block;
+}
+
+#verify-input ~ .check4:before {
+    width: 23px;
+    height: 23px;
+    background: url(../img/Sprite.png) -53px -181px no-repeat;
+}
+
+#verify-input:checked ~ .checked4:before {
+    width: 23px;
+    height: 23px;
+    background: url(../img/Sprite.png) -131px -182px no-repeat;
+}
+
+#verify-input:checked ~ .check4 {
+    display: none;
+}
+
+#verify-input:checked ~ .checked4 {
+    display: inline-block;
+}
+
+#verify-input ~ .check5:before {
+    width: 23px;
+    height: 25px;
+    background: url(../img/Sprite.png) -78px -188px no-repeat;
+}
+
+#verify-input:checked ~ .checked5:before {
+    width: 23px;
+    height: 25px;
+    background: url(../img/Sprite.png) -103px -188px no-repeat;
+}
+
+#verify-input:checked ~ .check5 {
+    display: none;
+}
+
+#verify-input:checked ~ .checked5 {
+    display: inline-block;
+}
+
+#verify-input ~ .check6:before {
+    width: 23px;
+    height: 19px;
+    background: url(../img/Sprite.png) -27px -197px no-repeat;
+}
+
+#verify-input:checked ~ .checked6:before {
+    width: 23px;
+    height: 19px;
+    background: url(../img/Sprite.png) -2px -198px no-repeat;
+}
+
+#verify-input:checked ~ .check6 {
+    display: none;
+}
+
+#verify-input:checked ~ .checked6 {
+    display: inline-block;
+}
+
+#verify-input ~ .check7:before {
+    width: 22px;
+    height: 24px;
+    background: url(../img/Sprite.png) -52px -206px no-repeat;
+}
+
+#verify-input:checked ~ .checked7:before {
+    width: 22px;
+    height: 24px;
+    background: url(../img/Sprite.png) -128px -207px no-repeat;
+}
+
+#verify-input:checked ~ .check7 {
+    display: none;
+}
+
+#verify-input:checked ~ .checked7 {
+    display: inline-block;
+}
+
+#verify-input ~ .check8:before {
+    width: 24px;
+    height: 23px;
+    background: url(../img/Sprite.png) -55px -156px no-repeat;
+}
+
+#verify-input:checked ~ .checked8:before {
+    width: 24px;
+    height: 23px;
+    background: url(../img/Sprite.png) -137px -157px no-repeat;
+}
+
+#verify-input:checked ~ .check8 {
+    display: none;
+}
+
+#verify-input:checked ~ .checked8 {
+    display: inline-block;
+}
+
+#verify-input ~ .check9:before {
+    width: 25px;
+    height: 26px;
+    background: url(../img/Sprite.png) -83px -135px no-repeat;
+}
+
+#verify-input:checked ~ .checked9:before {
+    width: 25px;
+    height: 26px;
+    background: url(../img/Sprite.png) -110px -135px no-repeat;
+}
+
+#verify-input:checked ~ .check9 {
+    display: none;
+}
+
+#verify-input:checked ~ .checked9 {
+    display: inline-block;
+}
+
+#verify-input ~ .check10:before {
+    width: 25px;
+    height: 24px;
+    background: url(../img/Sprite.png) -96px -109px no-repeat;
+}
+
+#verify-input:checked ~ .checked10:before {
+    width: 25px;
+    height: 24px;
+    background: url(../img/Sprite.png) -123px -109px no-repeat;
+}
+
+#verify-input:checked ~ .check10 {
+    display: none;
+}
+
+#verify-input:checked ~ .checked10 {
+    display: inline-block;
+}
+
+#verify-input ~ .check11:before {
+    width: 25px;
+    height: 24px;
+    background: url(../img/Sprite.png) -150px -109px no-repeat;
+}
+
+#verify-input:checked ~ .checked11:before {
+    width: 25px;
+    height: 24px;
+    background: url(../img/Sprite.png) -2px -118px no-repeat;
+}
+
+#verify-input:checked ~ .check11 {
+    display: none;
+}
+
+#verify-input:checked ~ .checked11 {
+    display: inline-block;
+}
+
+.check12:before {
+    width: 25px;
+    height: 23px;
+    background: url(../img/Sprite.png) -29px -118px no-repeat;
+}
+
+.checked12:before {
+    width: 25px;
+    height: 23px;
+    background: url(../img/Sprite.png) -56px -131px no-repeat;
+}
+
+#verify-input:checked ~ .check12 {
+    display: none;
+}
+
+#verify-input:checked ~ .checked12 {
+    display: inline-block;
+}
+
+.footer-wrapper {
+    width: 1138px;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+
+.first-coloumn-footer {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #45484c;
+}
+
+.left-footer-block {
+    float: left;
+}
+
+.footer-logo {
+    background: url(../img/Sprite.png) -2px -0px no-repeat;
+    height: 32px;
+    width: 175px;
+}
+
+.copyright-info {
+    font-family: 'GothamPro-Medium';
+    font-size: 10px;
+    color: #9e9e9e;
+    margin-top: 14px;
+    letter-spacing: 0.015em;
+}
+
+.soc li {
+    display: inline-block;
+    zoom: 1;
+    margin: 2px 3px 0 0;
+}
+
+.soc {
+    margin: 22px 0 0 0;
+}
+
+.soc li a {
+    display: block;
+    width: 26px;
+    height: 26px;
+}
+
+.soc:nth-child(3) li a {
+    width: 24px;
+    height: 24px;
+}
+
+.soc:nth-child(3) li a:hover {
+    box-shadow: none;
+}
+
+.soc li a:hover {
+    border-radius: 50% 50%;
+    box-shadow: inset 0 0 0 2px #8EC4E6, 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.tweet {
+    background: url(../img/Sprite.png) -106px -163px no-repeat;
+}
+
+.facebook {
+    background: url(../img/Sprite.png) -152px -207px no-repeat;
+}
+
+.google {
+    background: url(../img/Sprite.png) -76px -215px no-repeat;
+}
+
+.pinterest {
+    background: url(../img/Sprite.png) -81px -163px no-repeat;
+}
+
+.soundcloud {
+    background: url(../img/Sprite.png) -88px -56px no-repeat;
+}
+
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.central-footer-block {
+    float: left;
+    margin-left: 183px;
+}
+
+.footer-info-list {
+    list-style-type: none;
+    float: left;
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    font-weight: bold;
+    color: #eef2f7;
+    margin: 0 44px 0 0;
+    padding: 0;
+    width: 130px;
+}
+
+.footer-info-list h4 {
+    color: #a7adb4;
+    margin: 5px 0 22px 0;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-info-list li {
+    margin-bottom: 12px;
+}
+
+.right-footer-block {
+    margin: 4px 0px 0px 94px;
+    float: left;
+}
+
+.right-footer-header {
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: bold;
+    color: #a7adb4;
+    margin: 0 0 21px 0;
+}
+
+.footer-btn {
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 13px;
+    background: #4a86f8;
+    padding: 10px 35px 10px 35px;
+    text-decoration: none;
+    margin-left: 11px;
+}
+
+.footer-btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.bottom-list {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 26px 0px 0 2px;
+}
+
+.bottom-list-item {
+    float: left;
+    font-size: 11px;
+    color: #8e8e8e;
+    margin: 0px 32px 0 0;
+}
+
+.bottom-list-item a:hover {
+    text-decoration: underline;
+}
+
+.share-us-box {
+    float: left;
+    width: 100%;
+    margin: 48px 0 65px 0px;
+}
+
+.share-input {
+    font-size: 16px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 10px;
+    color: #434343;
+    text-shadow: 0px 2px 2px rgba(42, 42, 42, .69);
+    float: left;
+    width: 248px;
+}
+
+.share-input:focus {
+    outline: none;
+}
+
+.soc-email2 {
+    background-color: #595959;
+}
+
+.share-social .soc-email2:hover {
+    background-color: #737373;
+    transform: none;
+}
+
+.share-social .soc-facebook:hover {
+    background-color: #526fac;
+    transform: none;
+}
+
+.share-social .soc-twitter:hover {
+    background-color: #61bbf2;
+    transform: none;
+}
+
+.share-social {
+    float: left;
+    margin: 5px 0px 0 11px;
+}
+
+.soc-facebook {
+    background: url(../img/Sprite.png) -117px -81px no-repeat;
+}
+
+.soc-twitter {
+    background: url(../img/Sprite.png) -145px -81px no-repeat;
+}
+
+.soc-email2 {
+    background: url(../img/Sprite.png) -88px -81px no-repeat;
+}
+
+.hr {
+    width: 100%;
+    height: 1px;
+    float: left;
+    margin: 9px 0 0 0;
+    background: #efefef;
+}
+
+.share-us-block {
+    float: left;
+    margin: 9px 0px 0 42px;
+}
+
+.share-us-block li a {
+    display: block;
+    height: 20px;
+}
+
+.share-us-block li a:hover {
+    opacity: 0.7;
+}
+
+.share-us-block li {
+    display: inline-block;
+    margin: 0 42px 0 0;
+}
+
+.share-us-google {
+    background: url('../img/Sprite.png') -65px -34px no-repeat;
+    width: 46px;
+}
+
+.share-us-twitter {
+    background: url('../img/Sprite.png') -2px -34px no-repeat;
+    width: 61px;
+}
+
+.share-us-facebook {
+    background: url('../img/Sprite.png') -2px -56px no-repeat;
+    width: 44px;
+}
+
+ul.footer-info-list a:hover {
+    text-decoration: underline;
+}
+
+.footer-info-list a {
+    color: #eef2f7;
+}
