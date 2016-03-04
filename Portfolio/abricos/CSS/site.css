@@ -1,0 +1,308 @@
+html,
+body {
+    height: 100%;
+    background-color: #efefed;
+}
+
+div > h1,
+p {
+    position: relative;
+    z-index: 1000;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+    font-family: '8485';
+}
+
+.wrap > .container {
+    padding: 0 0 0 0;
+    width: 100%;
+}
+
+.header {
+    border-bottom: 5px solid #7c7c7c;
+    margin: 0;
+    background: #65e457;
+}
+
+.logo {
+    background: url("../img/logo.png") no-repeat;
+    height: 175px;
+    padding: 0;
+    display: block;
+}
+
+.contact-form {
+    margin-top: 1%;
+}
+
+.contact-message {
+    font-size: 18px;
+    color: #7c7c7c;
+    margin-right: 3%;
+}
+
+.clearfix {
+    .clearfix:before,
+    .clearfix:after {
+        content: " ";
+        display: table;
+    }
+    .clearfix:after {
+        clear: both;
+    }
+}
+
+.contactme-info-div {
+    margin-top: 6%;
+}
+
+.header-title {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0.25em;
+    font-smooth: sharp;
+    text-shadow: 0px 1px 0px #fff;
+    margin-top: 2%;
+    margin-bottom: -4.5%;
+    z-index: 0;
+    background-color: #34c924;
+}
+
+.contact-input {
+    border-radius: 0;
+    height: 20px;
+    border: 1px solid #969696;
+    input:focus::-webkit-input-placeholder {
+        color: transparent;
+    }
+    input:focus:-moz-placeholder {
+        color: transparent;
+    }
+    input:focus::-moz-placeholder {
+        color: transparent;
+    }
+    input:focus:-ms-input-placeholder {
+        color: transparent;
+    }
+}
+
+.contact-button {
+    height: 55px;
+    background-color: #f5832d;
+    color: #fff;
+    border: 1px solid white !important;
+    font-weight: bold;
+}
+
+.adress-information {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#custom-bootstrap-menu.navbar-default {
+    font-size: 18px;
+    background-color: rgba(248, 248, 248, 0);
+    border-width: 0px;
+    border-radius: 0px;
+    margin: 0;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(47, 47, 47, 1);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(235, 89, 89, 0);
+    text-shadow: 2px 3px 2px #969595;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(245, 131, 44, 1);
+    border-bottom: 5px solid #34c924;
+    font-weight: bold;
+    padding: 29px 12px 4px 12px;
+    text-shadow: none;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #f5832c;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #f5832c;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f5832c;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #f8f8f8;
+}
+
+.navbar-nav > li {
+    text-align: center;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+li.active:after {
+    right: 100%;
+    top: 0%;
+    position: absolute;
+    content: " ";
+    border-style: solid;
+    border-width: 0 0 12px 9px;
+    border-color: #cf6617 transparent;
+}
+
+.active {
+    margin-top: -16px;
+}
+
+.style-div {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0 11px 9px;
+    border-color: transparent transparent #cf6717 transparent;
+    margin: 0px 0 -10px -9px;
+}
+
+.first-content-div {
+    background: url("../img/first-content-div-img.png") no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.first-content-div:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.vacum-cleaner {
+    background: url("../img/vacuum-cleaner.png") no-repeat;
+    position: relative;
+    z-index: 1000;
+    background-position-x: 80%;
+    border-bottom: 5px solid #7c7c7c;
+    padding-bottom: 3%;
+    background-size: contain;
+    margin: 0;
+}
+
+.content-header {
+    font-size: 35px;
+    margin-top: 4%;
+    float: left;
+}
+
+.content-main-header {
+    font-size: 45px;
+    color: #34c924;
+    float: left;
+    padding-top: 3%;
+}
+
+.content-info-div {
+    font-size: 34px;
+    float: left;
+    background-color: #f5832c;
+    margin-top: 5%;
+    color: #fff;
+}
+
+.second-content-div {
+    background-color: rgba(255, 255, 255, 0.65);
+    background-color: #efefed;
+    position: relative;
+    margin: 0;
+    border-bottom: 5px solid #7c7c7c;
+}
+
+.second-div-img {
+    background: url("../img/second-div-img.png") no-repeat;
+    height: 187px;
+}
+
+.second-div-txt {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.second-div-header {
+    font-weight: bold;
+}
+
+.third-content-div {
+    position: relative;
+    border-bottom: 5px solid #7c7c7c;
+    background: url(../img/third-div-background.png);
+    background-size: cover;
+    margin: 0;
+}
+
+.discount-info {
+    background-color: rgba(145, 145, 145, 0.65);
+    color: #fff;
+    font-family: 'GenevaCY';
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+.percent {
+    height: 61px;
+    background: url(../img/percent-img.png) no-repeat;
+}
+
+.next-button {
+    z-index: 1000;
+}
+
+ul.nav {
+    z-index: 1000;
+}
+
+button.navbar-toggle {
+    z-index: 2000;
+}
+
+div#custom-bootstrap-menu {
+    z-index: inherit;
+}
+
+div#custom-bootstrap-menu.navbar {
+    min-height: 90px;
+}
+
+@media (max-width: 768px) {
+   .active {
+    margin-top: 0;
+   }
+}
