@@ -10,8 +10,9 @@ https://evgar.github.io/abricos/index.html
 https://evgar.github.io/battleship/index.html
 
 Чтобы установить локально мое портфолио, введите в консоль поочередно следующие команды:
-git clone https://github.com/evgar/evgar.github.io portfolio
-cd portfolio
-bower i
-npm i
-gulp
+
+git clone https://github.com/evgar/evgar.github.io portfolio 
+cd portfolio 
+bower i 
+npm i 
+gulp 
