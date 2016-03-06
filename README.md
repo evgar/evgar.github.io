@@ -1,11 +1,11 @@
 Портфолио
 =========
-###Ниже перечислены завершенные проекты над которыми я работал, и в которых принимал участие.
+###Ниже перечислены завершенные проекты, над которыми я работал, и в которых принимал участие.
 
 
-* [Промо-сайт (командная разработка)](https://evgar.github.io/promo_site/index.html)
+* [Промосайт (верстка, командная разработка)](https://evgar.github.io/promo_site/index.html)
 
-* [Сайт клинингового агенства (адаптив, с применением Twitter Bootstrap)](https://evgar.github.io/abricos/index.html)
+* [Сайт клинингового агенства (верстка адаптивного лендинга, с применением Twitter Bootstrap)](https://evgar.github.io/abricos/index.html)
 
 * [Морской бой на JavaScript (ООП)](https://evgar.github.io/battleship/index.html)
 
