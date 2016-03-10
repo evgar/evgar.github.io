@@ -1,0 +1,360 @@
+img{
+  max-width: 100%;
+  &.w100{
+    width: 100%;
+  }
+}
+.text-right-sm{
+  @media (min-width: 768px) {
+    text-align: right;
+  }
+}
+.hidden-super-small{
+  @media (max-width: 550px) {
+    display: none;
+  }
+}
+.link-dotted{
+  font-size:14px;
+  text-decoration: none;
+  border-bottom: 1px dashed #000080;
+  margin-bottom: 10px;
+  display: inline-block;
+  &:hover{
+    border-color: transparent;
+  }
+
+  .show-on-close{
+    display: none;
+  }
+  .show-on-open{
+    display: inline;
+  }
+  &.collapsed{
+    .show-on-close{
+      display: inline;
+    }
+    .show-on-open{
+      display: none;
+    }
+  }
+}
+
+
+.generate-margin-element(100);
+
+.generate-margin-element(@n, @i: 5) when (@i =< @n) {
+  .margin-element-@{i} {
+    height: (@i * 1px);
+    width: 100%;
+    float: left;
+    @media (max-width: 767px) {
+      height: ((@i/2) * 1px);
+    }
+  }
+  .generate-margin-element(@n, (@i + 5));
+}
+
+
+
+.link-type-1{
+  display: inline-block;
+  margin: 5px 0;
+  .label-link{
+    display: inline-block;
+    border-bottom: 1px dashed #2d2991;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Arial, sans-serif;
+    color: #2d2991;
+    text-decoration: none;
+    padding-top: 3px;
+  }
+  .icon-link{
+    display: inline-block;
+    margin-right: 7px;
+    margin-top: 1px;
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/layout/sprite.png");
+  }
+  .commit-icon{
+    background-position: -109px -9px;
+  }
+  .place-icon{
+    background-position: -133px -9px;
+  }
+  .like-icon{
+    background-position: -152px -9px;
+  }
+  .trash-icon{
+    background-position: -169px -9px;
+  }
+  .share-icon{
+    background-position: -186px -9px;
+  }
+  .refresh-icon{
+    background-position: -203px -9px;
+  }
+  &:hover{
+    .label-link{
+      border-color: transparent;
+    }
+    .commit-icon{
+      background-position: -109px -47px;
+    }
+    .place-icon{
+      background-position: -133px -47px;
+    }
+    .like-icon{
+      background-position: -152px -47px;
+    }
+    .trash-icon{
+      background-position: -169px -47px;
+    }
+    .share-icon{
+      background-position: -186px -47px;
+    }
+    .refresh-icon{
+      background-position: -203px -47px;
+    }
+  }
+  &:active{
+    .label-link{
+      border-color: #0e96e5;
+      color: #0e96e5;
+    }
+    .commit-icon{
+      background-position: -109px -85px;
+    }
+    .place-icon{
+      background-position: -133px -85px;
+    }
+    .like-icon{
+      background-position: -152px -85px;
+    }
+    .trash-icon{
+      background-position: -169px -85px;
+    }
+    .share-icon{
+      background-position: -186px -85px;
+    }
+    .refresh-icon{
+      background-position: -203px -85px;
+    }
+  }
+  &:after{
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+
+
+.price-info{
+  font-size: 24px;
+  font-weight: bold;
+  small{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .middle-font{
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+.basket-items{
+  margin-bottom: 27px;
+  .basket-img{
+    padding-right: 0;
+  }
+  .item-link{
+    margin-top: 22px;
+    margin-bottom: 14px;
+  }
+  .price-info {
+    padding-top: 12px;
+  }
+}
+.basket-list{
+  margin-bottom: 40px;
+  .basket-total{
+    border-top: 3px solid #d7efff;
+    padding-top: 15px;
+    .delivery-info{
+      font-size: 14px;
+      font-weight: 400;
+      padding-right: 24px;
+    }
+  }
+}
+
+.item-small-tov{
+  .basket-img{
+    padding-right: 0;
+  }
+  .desc-tov{
+    padding-top: 6px;
+  }
+  .price-info{
+    font-size: 16px;
+    margin: 9px 0 4px;
+  }
+}
+
+.share-icon-vk,
+.share-icon-fb,
+.share-icon-tw{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/layout/sprite.png");
+  background-repeat: no-repeat;
+  margin: 0 2px;
+  &.share-icon-vk{
+    background-position: -269px -9px;
+  }
+  &.share-icon-fb{
+    background-position: -230px -9px;
+  }
+  &.share-icon-tw{
+    background-position: -249px -9px;
+  }
+  &:hover{
+    &.share-icon-vk{
+      background-position: -269px -31px;
+    }
+    &.share-icon-fb{
+      background-position: -230px -31px;
+    }
+    &.share-icon-tw{
+      background-position: -249px -31px;
+    }
+  }
+  &:active{
+    &.share-icon-vk{
+      background-position: -269px -53px;
+    }
+    &.share-icon-fb{
+      background-position: -230px -53px;
+    }
+    &.share-icon-tw{
+      background-position: -249px -53px;
+    }
+  }
+}
+
+.subscribe-type-1{
+  width: 100%;
+  .first-block{
+    position: relative;
+    padding-top: 29%;
+    line-height: 18px;
+    font-weight: 900;
+    color: #393939;
+    &:after{
+      position: absolute;
+      z-index: -1;
+      content: "";
+      bottom: -24px;
+      right: 0;
+      background-image: url("../img/layout/subscribe-cloud.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 60%;
+      height: 100%;
+      @media (min-width: 768px) and (max-width: 991px) {
+        width: 42%;
+      }
+    }
+  }
+  .form-group{
+    margin-top: 15px;
+    margin-bottom: 12px;
+    label{
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .form-control{
+      line-height: 32px;
+      height: 32px;
+      border: 1px solid #cfcfcf;
+      background-color: #f6f6f6;
+    }
+  }
+  .btn{
+    width: 100%;
+    @media (min-width: 768px) and (max-width: 991px) {
+      font-size: 9px;
+    }
+  }
+  .small-text{
+    font-size: 11px;
+    color: #929292;
+    font-weight: 300;
+  }
+}
+.info-left-block-link{
+  display: block;
+  width: 100%;
+}
+
+.pagination-type-1{
+  a{
+  }
+  .prev{
+    float: left;
+    width: 20%;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+  }
+  .next{
+    float: right;
+    width: 20%;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: right;
+  }
+  .center{
+    display: block;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    li{
+      display: inline-block;
+      font-size: 14px;
+      text-align: center;
+      line-height: 26px;
+      width: 24px;
+      color: #393939;
+      &.active{
+        background-color: #d7efff;
+        font-weight: 900;
+        a{
+          color: #393939;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    .prev,
+    .next{
+      width: 50%;
+    }
+    .center {
+      width: 100%;
+      clear: both;
+    }
+  }
+  &:after{
+    display: block;
+    clear: both;
+    content: "";
+  }
+}
