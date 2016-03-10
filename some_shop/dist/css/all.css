@@ -10432,7 +10432,7 @@ img.w100 {
 .list-unstyled > li a {
   display: inline-flex;
   text-decoration: none;
-  padding: 6px 37px 6px 18px;
+  padding: 6px 7px 6px 18px;
   margin: -6px 0 5px 0;
 }
 .order-date {
@@ -10576,8 +10576,8 @@ img.w100 {
   width: 79px;
   height: 84px;
   background: url('../img/layout/sprite.png') -6px -136px no-repeat;
-  top: 10px;
-  left: -17px;
+  top: -2px;
+  left: 8px;
 }
 .shareLink {
   padding: 0 70px 0 70px;
@@ -10611,4 +10611,14 @@ img.w100 {
 .item-filter li:first-child {
   font-size: 14px;
   font-weight: bold;
+}
+
+.waitlist-item {
+  border: solid 3px #d7efff;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.waitlist-info {
+  color: #ff2a2a;
 }

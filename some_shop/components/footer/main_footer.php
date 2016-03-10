@@ -13,7 +13,7 @@
                             <li><a href="#">Сон</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <ul class="list-unstyled">
                             <li><a href="#">Творчество и учеба</a></li>
                             <li><a href="#">Здоровье и гигиена</a></li>
@@ -22,7 +22,7 @@
                             <li><a href="#">Спорт, горки, качели</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <ul class="list-unstyled">
                             <li><a href="#">О магазине</a></li>
                             <li><a href="#">Оплата и доставка</a></li>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-6">
                 <div class="row">
-                    <div class="col-sm-8">
+                    <div class="col-sm-7">
                         <div class="footer-mugs-container">
                             <a href="#" class="footer-mugs-blue pull-right">
                                 <div class="img-block"><img src="dist/img/layout/mugs_blue.svg"></div>
@@ -49,7 +49,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-5">
                         <ul class="list-unstyled">
                             <li><a class="footer-phone" href="tel:+380 44 332 27 66">(044) 332 27 66</a></li>
                             <li><a class="footer-phone" href="tel:+380 67 659 30 99">(067) 659 30 99</a></li>
