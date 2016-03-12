@@ -3,9 +3,14 @@
 ### Ниже перечислены завершенные проекты, над которыми я работал, и в которых принимал участие.
 
 
-1. [Промосайт (верстка, командная разработка)](https://evgar.github.io/promo_site/index.html)
+1. [Промосайт (верстка, командная разработка)](https://evgar.github.io/promo_site/index.html)     
+***[Репозиторий](https://github.com/evgar/kirill_test)***
+---
 
-2. [Сайт клинингового агенства (верстка адаптивного лендинга с применением Twitter Bootstrap)](https://evgar.github.io/abricos/index.html)
+2. [Сайт клинингового агенства (верстка адаптивного лендинга с применением Twitter Bootstrap)](https://evgar.github.io/abricos/index.html)     
+***[Репозиторий](https://github.com/evgar/abricos_site)***
+
+---
 
 3. Интернет-магазин детских товаров (адаптивная верстка с применением Twitter Bootstrap, командная разработка)
 
@@ -28,20 +33,16 @@
 	* [Страница оформления заказа](http://evgar.ru/some_shop/some_shop_cart.php)
 
 	* [Лист ожидания](http://evgar.ru/some_shop/some_shop_waitlist.php)
+	 
+   ***[Репозиторий](https://github.com/evgar/kirill_test)***
+
+---
 
 4. [Морской бой на JavaScript](https://evgar.github.io/battleship/index.html)
 
 
 
 
->Чтобы установить локально мое портфолио, введите в консоль поочередно следующие команды:  
+>Чтобы чкачать мое портфолио, введите в консоль:  
 
-1.git clone https://github.com/evgar/evgar.github.io portfolio  
-
-2.cd portfolio  
-
-3.bower i  
-
-4.npm i  
-
-5.gulp
+		git clone https://github.com/evgar/evgar.github.io portfolio  
