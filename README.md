@@ -5,6 +5,7 @@
 
 1. [Промосайт (верстка, командная разработка)](https://evgar.github.io/promo_site/index.html)     
 ***[Репозиторий](https://github.com/evgar/kirill_test)***
+
 ---
 
 2. [Сайт клинингового агенства (верстка адаптивного лендинга с применением Twitter Bootstrap)](https://evgar.github.io/abricos/index.html)     
