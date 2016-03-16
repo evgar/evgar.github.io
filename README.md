@@ -3,17 +3,17 @@
 ### Ниже перечислены завершенные проекты, над которыми я работал, и в которых принимал участие.
 
 
-1. [Промосайт (верстка, командная разработка)](https://evgar.github.io/promo_site/index.html)     
+* [Промосайт (верстка, командная разработка)](https://evgar.github.io/promo_site/index.html)     
 ***[Репозиторий](https://github.com/evgar/kirill_test)***
 
 ---
 
-2. [Сайт клинингового агенства (верстка адаптивного лендинга с применением Twitter Bootstrap)](https://evgar.github.io/abricos/index.html)     
+* [Сайт клинингового агенства (верстка адаптивного лендинга с применением Twitter Bootstrap)](https://evgar.github.io/abricos/index.html)     
 ***[Репозиторий](https://github.com/evgar/abricos_site)***
 
 ---
 
-3. Интернет-магазин детских товаров (адаптивная верстка с применением Twitter Bootstrap, командная разработка)
+* Интернет-магазин детских товаров (адаптивная верстка с применением Twitter Bootstrap, командная разработка)
 
 	* [Корзина](http://evgar.ru/some_shop/some_shop_viewed.php)
 
@@ -39,7 +39,7 @@
 
 ---
 
-4. [Морской бой на JavaScript](https://evgar.github.io/battleship/index.html)
+* [Морской бой на JavaScript](https://evgar.github.io/battleship/index.html)
 
 
 
