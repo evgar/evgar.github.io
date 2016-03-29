@@ -137,13 +137,13 @@ var controller = {
 function parseGuess(guess) {
   var alphabet = ["A", "B", "C", "D", "E", "F", "G"];
   if (guess === null || guess.length !== 2) {
-    alert("Ткач алкаш, буквы путаешь, мазафака!!!!");
+    alert("Oops, please enter a letter and a number on the board.");
   } else {
     firstChar = guess.charAt(0);
     var row = alphabet.indexOf(firstChar);
     var column = guess.charAt(1);
     if (isNaN(row) || isNaN(column)) {
-      alert("Ткачик, харе бухать, по клаве мажешь!!!");
+      alert("Oops, that isn't on the board.");
     } else if (row < 0 || row >= model.boardSize ||
       column < 0 || column >= model.boardSize) {
       alert("Oops, that's off the board!");
