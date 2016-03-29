@@ -1,0 +1,603 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: url(../img/background.png) repeat;
+}
+
+
+/*Футер*/
+
+.page-footer {
+    border: 0;
+    border-top: 3px solid transparent;
+    -webkit-border-image: -webkit-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    -moz-border-image: -moz-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    -o-border-image: -o-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    border-image-slice: 1;
+    background-color: #eff3f7;
+    -ms-border-image: -ms-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+}
+
+
+/* Градиент шапки для IE8*/
+
+.no-cssgradients .page-footer {
+    background: url(../img/header_line.png) top center no-repeat;
+    background-color: #eff3f7;
+}
+
+.page-footer .container {
+    position: relative;
+    padding-top: 23px;
+}
+
+.page-footer .copyright {
+    font-size: 13px;
+    margin: 0 180px;
+    padding-top: 7px;
+    text-align: center;
+    color: #4a545d;
+}
+
+
+/*Логин*/
+
+.page-footer .lock {
+    position: absolute;
+    top: 26px;
+    left: 20px;
+}
+
+.lock .lock-inner {
+    font-size: 16px;
+    line-height: 2.2;
+    display: block;
+    height: 40px;
+    padding-left: 24px;
+    text-decoration: none;
+    color: #4a545d;
+    background: url(../img/lock.png) no-repeat;
+}
+
+.lock .lock-inner:hover {
+    text-decoration: underline;
+    background: url(../img/lock_on.png) no-repeat;
+}
+
+
+/*Футер к низу*/
+
+.wrapper {
+    position: relative;
+    min-width: 970px;
+    height: auto!important;
+    min-height: 100%;
+}
+
+.wrapper:after {
+    display: block;
+    height: 80px;
+    content: '';
+}
+
+.page-footer {
+    min-width: 970px;
+    height: 80px;
+}
+
+
+/*Логин конец*/
+
+
+/*Футер конец*/
+
+
+/*Общие классы*/
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.container:before,
+.clearfix:before,
+.container:after,
+.clearfix:after {
+    display: table;
+    content: ' ';
+}
+
+.container:after,
+.clearfix:after {
+    clear: both;
+}
+
+
+/*Шапка*/
+
+.container-big {
+    position: relative;
+    min-width: 960px;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.page-header {
+    position: relative;
+    height: 119px;
+    margin-bottom: 39px;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    -webkit-border-image: -webkit-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    -moz-border-image: -moz-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    -o-border-image: -o-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    border-image-slice: 1;
+    background: #eff3f7;
+    -ms-border-image: -ms-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+}
+
+.no-cssgradients .page-header {
+    /* Градиент шапки для IE8*/
+    background: url(../img/header_line.png) bottom center no-repeat;
+    background-color: #eff3f7;
+}
+
+.logo-png {
+    top: 47px;
+    left: 15px;
+}
+
+.page-header .header-logo-link {
+    position: absolute;
+    top: 39px;
+    left: 0;
+}
+
+.page-header .header-logo-text {
+    position: absolute;
+    left: -9999px;
+}
+
+.page-header .socials {
+    position: absolute;
+    top: 36px;
+    right: 0;
+}
+
+
+/*Иконки*/
+
+.socials {
+    min-width: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.socials .socials-item {
+    display: inline-block;
+    width: 48px;
+    height: 50px;
+    margin-left: 19px;
+    list-style: none;
+}
+
+.socials .socials-item:first-child {
+    margin-left: 0;
+}
+
+.socials .socials-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+    background: url(../img/socials-sprite.png) no-repeat;
+}
+
+.socials .socials-link.fb {
+    background-position: -5px -0;
+}
+
+.socials .socials-link.fb:hover {
+    background-position: -56px -0;
+}
+
+.socials .socials-link.gh {
+    background-position: -5px -52px;
+}
+
+.socials .socials-link.gh:hover {
+    background-position: -56px -52px;
+}
+
+.socials .socials-link.tw {
+    background-position: -5px -104px;
+}
+
+.socials .socials-link.tw:hover {
+    background-position: -56px -104px;
+}
+
+.socials .socials-link.vk {
+    background-position: -5px -156px;
+}
+
+.socials .socials-link.vk:hover {
+    background-position: -56px -156px;
+}
+
+
+/*Сайдбар*/
+
+.sidebar {
+    float: left;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+
+/*Навигация*/
+
+.navigation {
+    overflow: hidden;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background: #eff3f7;
+}
+
+.navigation .navigation-list {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation .navigation-item {
+    /* width: 229px;
+    margin-left: 11px; */
+    border-top: 3px solid #3ba8c0;
+}
+
+.navigation-item:active {
+    color: #eff3f7;
+    border-top: 2px solid #3ba8c0;
+    background: #3ba8c0;
+}
+
+.navigation .navigation-item:first-child {
+    border-top: none;
+}
+
+
+/*Навигация, текущий пункт меню*/
+
+.navigation .current {
+    margin: 0;
+    margin-bottom: -3px;
+    /*Костыль*/
+    padding: 0 9px 0 11px;
+    /*Костыль*/
+    color: #f9fafb;
+    border-bottom: none;
+    background: #3ba8c0;
+}
+
+.navigation .current .navigation-link {
+    color: #f9fafb;
+}
+
+.navigation .navigation-link {
+    font-family: 'fira_sansbook';
+    display: block;
+    margin-left: 16px;
+    padding: 19px 0 19px 4px;
+    text-decoration: none;
+    color: #959aab;
+}
+
+.navigation .navigation-link:hover {
+    color: #3ba8c0;
+}
+
+.navigation .current .navigation-link:hover {
+    color: #f9fafb;
+}
+
+.navigation .navigation-link:active {
+    color: #fff;
+}
+
+
+/*Блок контактов*/
+
+.contacts {
+    font-style: normal;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.contacts-title {
+    font-size: 22px;
+    font-weight: normal;
+    height: 36px;
+    margin: 0;
+    margin-top: 8px;
+    padding-top: 9px;
+    padding-left: 21px;
+    color: #fff;
+    background: #3ba8c0;
+    border-radius: 8px 8px 0 0;
+}
+
+.contacts-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts-li {
+    font-family: 'FiraSansBook';
+    padding-left: 57px;
+    background-color: #41b9d4;
+    background-repeat: no-repeat;
+    background-position: 43px 14px;
+}
+
+.mail-png {
+    background-color: #41b9d4;
+    background-image: url(../img/mail_png.png);
+}
+
+.mob-png {
+    background-color: #48cbe8;
+    background-image: url(../img/mob_png.png);
+}
+
+.skype-png {
+    background-color: #51daf8;
+    background-image: url(../img/skype_png.png);
+}
+
+.mail-png:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.mob-png:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.skype-png:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contact-info {
+    display: block;
+    height: 27px;
+    padding-top: 11px;
+    padding-left: 24px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.hat-png {
+    background-image: url(../img/hat.png);
+}
+
+.note-png {
+    background-image: url(../img/note.png);
+}
+
+.variable-content {
+    float: right;
+    width: 650px;
+}
+
+.aboutbox {
+    min-height: 235px;
+    margin-bottom: 25px;
+    background-color: #eff3f7;
+    border-radius: 8px;
+}
+
+.writeme-header {
+    background-color: #67dffa;
+    padding-bottom: 15px;
+    margin-bottom: 44px;
+}
+
+.writeme-title {
+    font-family: "Fira Sans";
+    font-weight: 400;
+    font-size: 27px;
+    color: #fff;
+    margin: 0;
+    background-color: #48cbe8;
+    padding: 40px 60px 38px 60px;
+}
+
+.writeme-wrapper {
+    width: 402px;
+    margin: auto;
+}
+
+.input-place {
+    margin-bottom: 12px;
+}
+
+.name-input {
+    float: left;
+}
+
+.mail-input {
+    float: right;
+}
+
+.input-title {
+    margin: 0;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    color: #959aa8;
+    display: block;
+}
+
+.writeme-input {
+    font-family: "Fira Sans";
+    font-size: 13px;
+    color: #48cbe8;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-style: solid;
+    border: 1px solid #48cbe8;
+}
+
+::-webkit-input-placeholder {
+    color: #48cbe8;
+}
+
+::-moz-placeholder {
+    color: #48cbe8;
+}
+
+
+/* Firefox 19+ */
+
+:-ms-input-placeholder {
+    color: #48cbe8;
+}
+
+:-moz-placeholder {
+    color: #48cbe8;
+}
+
+
+/* Firefox 18- */
+
+.writeme-input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.writeme-input::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.writeme-input:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.writeme-input:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.writeme-input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.writeme-input:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.writeme-input:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.writeme-input:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.bottom-stroke-input {
+    padding: 11px 0px 11px 9px;
+    width: 182px;
+    font-size: 12px;
+}
+
+.message-input {
+    width: 97%;
+    padding: 10px 0px 0px 10px;
+    height: 169px;
+    margin: 0;
+    resize: none;
+}
+
+.capcha-img {
+    max-height: 79px;
+    max-width: 189px;
+    float: left;
+    border: 1px solid #48cbe8;
+    border-radius: 4px;
+}
+
+.capcha-input {
+    float: right;
+    width: 188px;
+    padding: 5px 0px 5px 5px;
+    margin: 22px 0 0 0px;
+}
+
+.send-button {
+    float: left;
+}
+
+.clear-button {
+    float: right;
+}
+
+.button {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #48cbe8;
+    padding: 2px 21px;
+    margin-bottom: 200px;
+    margin-top: 5px;
+    font-family: "Fira Sans";
+    font-size: 19px;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #3ba8c0;
+}
+
+.button:hover {
+    background-color: #3ba8c0;
+    border-bottom: 2px solid #787878;
+}
+
+.button:active {
+    background-color: #A0A0A0;
+    border-bottom: 2px solid #787878;
+}
+
+
+/*.error-style{
+     background-color: red !important;
+}
+*/

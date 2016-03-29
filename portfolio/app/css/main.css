@@ -1,0 +1,569 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: url(../img/background.png) repeat;
+}
+
+
+/*Футер*/
+
+.page-footer {
+    border: 0;
+    border-top: 3px solid transparent;
+    -webkit-border-image: -webkit-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    -moz-border-image: -moz-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    -o-border-image: -o-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    border-image-slice: 1;
+    background-color: #eff3f7;
+    -ms-border-image: -ms-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+}
+
+.no-cssgradients .page-footer {
+    /* Градиент шапки для IE8*/
+    background: url(../img/header_line.png) top center no-repeat;
+    background-color: #eff3f7;
+}
+
+.page-footer .container {
+    position: relative;
+    padding-top: 23px;
+}
+
+.page-footer .copyright {
+    font-size: 13px;
+    margin: 0 180px;
+    padding-top: 7px;
+    text-align: center;
+    color: #4a545d;
+}
+
+
+/*Логин*/
+
+.page-footer .lock {
+    position: absolute;
+    top: 26px;
+    left: 20px;
+}
+
+.lock .lock-inner {
+    font-size: 16px;
+    line-height: 2.2;
+    display: block;
+    height: 40px;
+    padding-left: 24px;
+    text-decoration: none;
+    color: #4a545d;
+    background: url(../img/lock.png) no-repeat;
+}
+
+.lock .lock-inner:hover {
+    text-decoration: underline;
+    background: url(../img/lock_on.png) no-repeat;
+}
+
+
+/*Футер к низу*/
+
+.wrapper {
+    position: relative;
+    min-width: 970px;
+    height: auto!important;
+    min-height: 100%;
+}
+
+.wrapper:after {
+    display: block;
+    content: '';
+}
+
+.page-footer {
+    min-width: 970px;
+    height: 80px;
+}
+
+
+/*Логин конец*/
+
+
+/*Футер конец*/
+
+
+/*Общие классы*/
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.container:before,
+.clearfix:before,
+.container:after,
+.clearfix:after {
+    display: table;
+    content: ' ';
+}
+
+.container:after,
+.clearfix:after {
+    clear: both;
+}
+
+
+/*Шапка*/
+
+.container-big {
+    position: relative;
+    min-width: 960px;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.page-header {
+    position: relative;
+    height: 119px;
+    margin-bottom: 39px;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    -webkit-border-image: -webkit-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    -moz-border-image: -moz-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    -o-border-image: -o-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+    border-image-slice: 1;
+    background: #eff3f7;
+    -ms-border-image: -ms-linear-gradient(left, #fff 0%, #b3dced 15%, #20697c 50%, #bce0ee 85%, #fff 100%);
+}
+
+.no-cssgradients .page-header {
+    /* Градиент шапки для IE8*/
+    background: url(../img/header_line.png) bottom center no-repeat;
+    background-color: #eff3f7;
+}
+
+.logo-png {
+    top: 47px;
+    left: 15px;
+}
+
+.page-header .header-logo-link {
+    position: absolute;
+    top: 39px;
+    left: 0;
+}
+
+.page-header .header-logo-text {
+    position: absolute;
+    left: -9999px;
+}
+
+.page-header .socials {
+    position: absolute;
+    top: 36px;
+    right: 0;
+}
+
+
+/*Иконки*/
+
+.socials {
+    min-width: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.socials .socials-item {
+    display: inline-block;
+    width: 48px;
+    height: 50px;
+    margin-left: 19px;
+    list-style: none;
+}
+
+.socials .socials-item:first-child {
+    margin-left: 0;
+}
+
+.socials .socials-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+    background: url(../img/socials-sprite.png) no-repeat;
+}
+
+.socials .socials-link.fb {
+    background-position: -5px -0;
+}
+
+.socials .socials-link.fb:hover {
+    background-position: -56px -0;
+}
+
+.socials .socials-link.gh {
+    background-position: -5px -52px;
+}
+
+.socials .socials-link.gh:hover {
+    background-position: -56px -52px;
+}
+
+.socials .socials-link.tw {
+    background-position: -5px -104px;
+}
+
+.socials .socials-link.tw:hover {
+    background-position: -56px -104px;
+}
+
+.socials .socials-link.vk {
+    background-position: -5px -156px;
+}
+
+.socials .socials-link.vk:hover {
+    background-position: -56px -156px;
+}
+
+.socials .socials-link.fb:focus {
+    opacity: 0.5;
+}
+
+.socials .socials-link.fb:active {
+    opacity: 0.5;
+}
+
+
+/*Сайдбар*/
+
+.sidebar {
+    float: left;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+
+/*Навигация*/
+
+.navigation {
+    overflow: hidden;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background: #eff3f7;
+}
+
+.navigation .navigation-list {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation .navigation-item {
+    border-top: 3px solid #3ba8c0;
+}
+
+.navigation-item:active {
+    color: #eff3f7;
+    border-top: 2px solid #3ba8c0;
+    background: #3ba8c0;
+}
+
+.navigation .navigation-item:first-child {
+    border-top: none;
+    border-top: 2px solid #3ba8c0;
+}
+
+
+/*Навигация, текущий пункт меню*/
+
+.navigation .current {
+    margin: 0;
+    margin-bottom: -3px;
+    /*Костыль*/
+    padding: 0 9px 0 11px;
+    /*Костыль*/
+    color: #f9fafb;
+    border-bottom: none;
+    background: #3ba8c0;
+}
+
+.navigation .current .navigation-link {
+    color: #f9fafb;
+}
+
+.navigation .navigation-link {
+    font-family: 'fira_sansbook';
+    display: block;
+    margin-left: 16px;
+    padding: 19px 0 19px 4px;
+    text-decoration: none;
+    color: #959aab;
+}
+
+.navigation .navigation-link:hover {
+    color: #3ba8c0;
+}
+
+.navigation .current .navigation-link:hover {
+    color: #f9fafb;
+}
+
+.navigation .navigation-link:active {
+    color: #fff;
+}
+
+
+/*Блок контактов*/
+
+.contacts {
+    font-style: normal;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.contacts-title {
+    font-size: 22px;
+    font-weight: normal;
+    height: 36px;
+    margin: 0;
+    margin-top: 8px;
+    padding-top: 9px;
+    padding-left: 21px;
+    color: #fff;
+    background: #3ba8c0;
+    border-radius: 8px 8px 0 0;
+}
+
+.contacts-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts-li {
+    font-family: 'FiraSansBook';
+    padding-left: 57px;
+    background-color: #41b9d4;
+    background-repeat: no-repeat;
+    background-position: 43px 14px;
+}
+
+.mail-png {
+    background-color: #41b9d4;
+    background-image: url('../img/mail_png.png');
+}
+
+.mail-png .contact-info {
+    font-size: 14px;
+}
+
+.mob-png {
+    background-color: #48cbe8;
+    background-image: url('../img/mob_png.png');
+}
+
+.skype-png {
+    background-color: #51daf8;
+    background-image: url('../img/skype_png.png');
+}
+
+.mail-png:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.mob-png:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.skype-png:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contact-info {
+    font-size: 18px;
+    display: block;
+    height: 27px;
+    padding-top: 11px;
+    padding-left: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hat-png {
+    background: url('../img/hat.png') 8px 50% no-repeat;
+    padding-left: 70px;
+    margin: 1px 0px 21px 48px;
+}
+
+.note-png {
+    background: url('../img/note.png') 8px 50% no-repeat;
+    padding-left: 70px;
+    margin: 1px 0px 21px 48px;
+}
+
+.variable-content {
+    float: right;
+    width: 650px;
+}
+
+.aboutbox {
+    min-height: 235px;
+    margin-bottom: 41px;
+    background-color: #eff3f7;
+    border-radius: 8px;
+}
+
+.aboutbox-header {
+    font-family: 'FiraSansLight';
+    font-size: 26px;
+    width: 340px;
+    margin: 0 0 42px 0;
+    padding: 16px 0 19px 21px;
+    letter-spacing: 1px;
+    color: #3ba8c0;
+    border-bottom: 3px solid #30a6bc;
+}
+
+.image-wrap {
+    float: left;
+    margin-bottom: 40px;
+    margin-left: 55px;
+}
+
+.avatar-box {
+    overflow: hidden;
+    width: 142px;
+    height: 142px;
+    border: 5px solid #30a6bc;
+    border-radius: 50% 50%;
+}
+
+.worksheet-wrap {
+    float: right;
+    width: 400px;
+}
+
+.worksheet-list {
+    font-family: 'Fira Sans';
+    margin-top: -20px;
+    margin-left: -23px;
+    padding: 0;
+    list-style: none;
+    line-height: 22px;
+}
+
+.worksheet-item {
+    padding-bottom: 6px;
+    list-style: none;
+}
+
+.worksheet-left {
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    color: #838383;
+    overflow: hidden;
+    max-width: 166px;
+}
+
+.worksheet-right {
+    font-size: 16px;
+    display: inline-block;
+    max-width: 218px;
+    margin-left: 15px;
+    color: #4a545d;
+    overflow: hidden;
+}
+
+.achieve-block {
+    font-family: 'FiraSansBook';
+    font-size: 15px;
+    display: inline-block;
+    float: right;
+}
+
+.achieve-list {
+    display: inline-block;
+    float: left;
+    width: 246px;
+    padding: 0;
+    list-style: none;
+}
+
+.achieve-item {
+    font-family: 'proxima_nova_cond';
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 25px;
+    display: inline;
+    margin-bottom: 9px;
+    padding: 3px 16px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    background: -webkit-linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
+    background: -moz-linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
+    background: -ms-linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
+    background: -o-linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
+    background: linear-gradient(#3ba8c0 50%, #2e8ca2 50%);
+}
+
+.no-cssgradients .achieve-item {
+    padding: 0 14px;
+    /* Градиент шапки для IE8*/
+    background-color: #c0c0c0;
+}
+
+.avatar {
+    width: 100%;
+}
+
+.aboutme-wrap {
+    font-family: 'Fira Sans';
+}
+
+.exp-img {
+    background: url('../img/bag.png') 8px 50% no-repeat;
+    padding-left: 70px;
+    margin: 1px 0px 20px 48px;
+}
+
+.top-exptxt {
+    font-family: fira_sansbook;
+    font-size: 17px;
+    color: #4a545d;
+}
+
+.bottom-exptxt {
+    font-family: fira_sanslight;
+    font-size: 15px;
+    color: #4a545d;
+    margin: 0;
+}
+
+.exp-header {
+    margin-bottom: 22px;
+}
+
+.education-header {
+    margin-bottom: 4px;
+}
