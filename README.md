@@ -2,6 +2,10 @@
 =========
 ### Ниже перечислены завершенные проекты, над которыми я работал, и в которых принимал участие:
 
+* [Сайт-портфолио](http://evgar.ru/index.html)     
+***[Репозиторий](https://github.com/evgar/site_portfolio)***
+
+---
 
 * [Промосайт (верстка, командная разработка)](https://evgar.github.io/promo_site/index.html)     
 ***[Репозиторий](https://github.com/evgar/kirill_test)***
