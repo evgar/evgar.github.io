@@ -19,25 +19,25 @@
 
 * Интернет-магазин детских товаров (адаптивная верстка с применением Twitter Bootstrap, командная разработка)
 
-	* [Корзина](http://evgar.ru/some_shop/some_shop_viewed.php)
+	* [Корзина](http://evgar.esy.es/some_shop/some_shop_viewed.php)
 
-	* [Сраница тематической подборки товаров](http://evgar.ru/some_shop/some_shop_wishlist_item.php)
+	* [Сраница тематической подборки товаров](http://evgar.esy.es/some_shop/some_shop_wishlist_item.php)
 
-	* [Страница статуса заказа](http://evgar.ru/some_shop/some_shop_order.php)
+	* [Страница статуса заказа](http://evgar.esy.es/some_shop/some_shop_order.php)
 
-	* [Список заказов](http://evgar.ru/some_shop/some_shop_orders.php)
+	* [Список заказов](http://evgar.esy.es/some_shop/some_shop_orders.php)
 
-	* [Список желаний](http://evgar.ru/some_shop/some_shop_wishlist.php)
+	* [Список желаний](http://evgar.esy.es/some_shop/some_shop_wishlist.php)
 
-	* [Персональная информация](http://evgar.ru/some_shop/some_shop_personal_info.php)
+	* [Персональная информация](http://evgar.esy.es/some_shop/some_shop_personal_info.php)
 
-	* [Страница формы заполнения персональной информации](http://evgar.ru/some_shop/some_shop_personal_info_edit_2.php)
+	* [Страница формы заполнения персональной информации](http://evgar.esy.es/some_shop/some_shop_personal_info_edit_2.php)
 
-	* [Страница подписки на новости](http://evgar.ru/some_shop/some_shop_newsletters_edit.php)
+	* [Страница подписки на новости](http://evgar.esy.es/some_shop/some_shop_newsletters_edit.php)
 
-	* [Страница оформления заказа](http://evgar.ru/some_shop/some_shop_cart.php)
+	* [Страница оформления заказа](http://evgar.esy.es/some_shop/some_shop_cart.php)
 
-	* [Лист ожидания](http://evgar.ru/some_shop/some_shop_waitlist.php)
+	* [Лист ожидания](http://evgar.esy.es/some_shop/some_shop_waitlist.php)
 	 
    ***[Репозиторий](https://github.com/evgar/kirill_test)***
 
