@@ -6,7 +6,7 @@
       "created": "02-09-2016",
       "members": "Carolyn",
       "type": "Web",
-      "status": "done",
+      "status": "Done",
       "customer": "Carolyn Lewis"
     }, {
       "name": "Avamba",
@@ -14,7 +14,7 @@
       "created": "14-12-2015",
       "members": "Raymond",
       "type": "Desktop",
-      "status": "CZ",
+      "status": "Done",
       "customer": "Raymond Stanley"
     }, {
       "name": "Skippad",
@@ -22,7 +22,7 @@
       "created": "01-11-2015",
       "members": "Judy",
       "type": "Mobile",
-      "status": "TJ",
+      "status": "Done",
       "customer": "Judy Carroll"
     }, {
       "name": "Vimbo",
@@ -30,7 +30,7 @@
       "created": "29-03-2016",
       "members": "Frances",
       "type": "Support",
-      "status": "SE",
+      "status": "Done",
       "customer": "Frances Bailey"
     }, {
       "name": "Brainsphere",
@@ -38,7 +38,7 @@
       "created": "19-03-2016",
       "members": "Jose",
       "type": "Web",
-      "status": "NG",
+      "status": "Done",
       "customer": "Jose Fisher"
     }, {
       "name": "Fivechat",
@@ -46,7 +46,7 @@
       "created": "13-01-2016",
       "members": "Kathleen",
       "type": "Desktop",
-      "status": "GQ",
+      "status": "Done",
       "customer": "Kathleen Hunter"
     }, {
       "name": "Fliptune",
@@ -54,7 +54,7 @@
       "created": "29-10-2015",
       "members": "Ashley",
       "type": "Mobile",
-      "status": "CN",
+      "status": "Done",
       "customer": "Ashley Ellis"
     }, {
       "name": "Browsebug",
@@ -62,7 +62,7 @@
       "created": "23-05-2016",
       "members": "Ruth",
       "type": "Support",
-      "status": "ID",
+      "status": "Done",
       "customer": "Ruth Howard"
     }, {
       "name": "Yabox",
@@ -70,7 +70,7 @@
       "created": "07-02-2016",
       "members": "Barbara",
       "type": "Web",
-      "status": "RU",
+      "status": "Done",
       "customer": "Barbara White"
     }, {
       "name": "Gigashots",
@@ -78,7 +78,7 @@
       "created": "13-12-2015",
       "members": "Keith",
       "type": "Desktop",
-      "status": "PH",
+      "status": "Done",
       "customer": "Keith Grant"
     }, {
       "name": "Meevee",
@@ -86,7 +86,7 @@
       "created": "17-04-2016",
       "members": "Alan",
       "type": "Mobile",
-      "status": "RU",
+      "status": "Done",
       "customer": "Alan Arnold"
     }, {
       "name": "Trilia",
@@ -94,7 +94,7 @@
       "created": "22-03-2016",
       "members": "Chris",
       "type": "Support",
-      "status": "JP",
+      "status": "Done",
       "customer": "Chris Brooks"
     }, {
       "name": "Yamia",
@@ -102,7 +102,7 @@
       "created": "09-07-2016",
       "members": "Adam",
       "type": "Web",
-      "status": "VU",
+      "status": "Done",
       "customer": "Adam Robertson"
     }, {
       "name": "Bluejam",
@@ -110,7 +110,7 @@
       "created": "20-02-2016",
       "members": "Mark",
       "type": "Desktop",
-      "status": "PH",
+      "status": "Done",
       "customer": "Mark Weaver"
     }, {
       "name": "Skidoo",
@@ -118,7 +118,7 @@
       "created": "07-11-2015",
       "members": "Carol",
       "type": "Mobile",
-      "status": "PT",
+      "status": "Done",
       "customer": "Carol Harris"
     }, {
       "name": "Mudo",
@@ -126,7 +126,7 @@
       "created": "18-06-2016",
       "members": "Richard",
       "type": "Support",
-      "status": "CN",
+      "status": "Done",
       "customer": "Richard Garza"
     }, {
       "name": "Roomm",
@@ -134,7 +134,7 @@
       "created": "07-04-2016",
       "members": "Jane",
       "type": "Web",
-      "status": "VE",
+      "status": "Done",
       "customer": "Jane Ramos"
     }, {
       "name": "Realbridge",
@@ -142,7 +142,7 @@
       "created": "14-11-2015",
       "members": "Christine",
       "type": "Desktop",
-      "status": "Mobile",
+      "status": "Done",
       "customer": "Christine Anderson"
     }, {
       "name": "BlogXS",
@@ -150,7 +150,7 @@
       "created": "13-01-2016",
       "members": "Jane",
       "type": "Support",
-      "status": "NG",
+      "status": "Done",
       "customer": "Jane Harvey"
     }, {
       "name": "Skinder",
@@ -158,7 +158,7 @@
       "created": "11-07-2016",
       "members": "Paul",
       "type": "Mobile",
-      "status": "CN",
+      "status": "Done",
       "customer": "Paul Barnes"
     }, {
       "name": "Lajo",
@@ -166,7 +166,7 @@
       "created": "28-09-2016",
       "members": "Frank",
       "type": "Web",
-      "status": "CO",
+      "status": "Done",
       "customer": "Frank Reid"
     }, {
       "name": "Zoombeat",
@@ -174,7 +174,7 @@
       "created": "17-12-2015",
       "members": "Phillip",
       "type": "Desktop",
-      "status": "Mobile",
+      "status": "Done",
       "customer": "Phillip Bradley"
     }, {
       "name": "Eamia",
@@ -182,7 +182,7 @@
       "created": "23-03-2016",
       "members": "Rachel",
       "type": "Support",
-      "status": "CU",
+      "status": "Done",
       "customer": "Rachel Torres"
     }, {
       "name": "Livefish",
@@ -190,7 +190,7 @@
       "created": "12-06-2016",
       "members": "Louis",
       "type": "Support",
-      "status": "CN",
+      "status": "Done",
       "customer": "Louis Carpenter"
     }, {
       "name": "Eabox",
@@ -198,7 +198,7 @@
       "created": "14-03-2016",
       "members": "Lisa",
       "type": "Web",
-      "status": "CA",
+      "status": "Done",
       "customer": "Lisa James"
     }, {
       "name": "Dablist",
@@ -214,7 +214,7 @@
       "created": "11-02-2016",
       "members": "Ann",
       "type": "Support",
-      "status": "BR",
+      "status": "Done",
       "customer": "Ann Black"
     }, {
       "name": "Tagopia",
@@ -222,7 +222,7 @@
       "created": "15-05-2016",
       "members": "Norma",
       "type": "Desktop",
-      "status": "EC",
+      "status": "Done",
       "customer": "Norma Roberts"
     }, {
       "name": "Aimbu",
@@ -230,7 +230,7 @@
       "created": "16-12-2015",
       "members": "Roger",
       "type": "Web",
-      "status": "CN",
+      "status": "Done",
       "customer": "Roger Kennedy"
     }, {
       "name": "Twitterbridge",
@@ -238,7 +238,7 @@
       "created": "19-05-2016",
       "members": "Theresa",
       "type": "Desktop",
-      "status": "PE",
+      "status": "Done",
       "customer": "Theresa Hughes"
     }
   ]

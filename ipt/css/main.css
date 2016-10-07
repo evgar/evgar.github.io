@@ -165,7 +165,7 @@ table.catalog th, table.catalog td {
     font-weight: 600;
     border-collapse: collapse;
     position: relative;
-    min-height: calc(99vh - 53px);
+    min-height: calc(99vh - 63px);
 }
 
 .catalog:after {
