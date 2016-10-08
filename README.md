@@ -2,8 +2,8 @@
 =========
 ### Ниже перечислены завершенные проекты, над которыми я работал, и в которых принимал участие:
 
-* [Сайт-портфолио](http://evgar.ru/portfolio/index.html)     
-***[Репозиторий](https://github.com/evgar/site_portfolio)***
+* [Таблица проектов с возможностью фильтрации(адаптивная верстка, JavaScript)](http://evgar.ru/ipt/index.html)     
+***[Репозиторий](https://github.com/evgar/dashboard)***
 
 ---
 
@@ -48,6 +48,6 @@
 
 
 
->Чтобы чкачать мое портфолио, введите в консоль:  
+>Чтобы cкачать мое портфолио, введите в консоль:  
 
 		git clone https://github.com/evgar/evgar.github.io portfolio  
