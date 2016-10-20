@@ -1,8 +1,9 @@
 Portfolio
 =========
 ### Projects that I've implemented and in which I've been involved:
-* [Multiple form binding (adaptive layout, JavaScript)](https://evgar.github.io/ipt/index.html)     
-***[Repository](https://github.com/evgar/list-attached-form)***
+
+* [Multiple form binding (jQuery, jQuery UI)](https://evgar.github.io/list-attached-form/index.html)     
+***[Repository](https://github.com/evgar/list_attached_form)***
 
 ---
 
