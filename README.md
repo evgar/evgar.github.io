@@ -1,53 +1,45 @@
-Портфолио
+Portfolio
 =========
-### Ниже перечислены завершенные проекты, над которыми я работал, и в которых принимал участие:
-
-* [Таблица проектов с возможностью фильтрации(адаптивная верстка, JavaScript)](https://evgar.github.io/ipt/index.html)     
-***[Репозиторий](https://github.com/evgar/dashboard)***
-
----
-
-* [Промосайт (верстка, командная разработка)](https://evgar.github.io/promo_site/index.html)     
-***[Репозиторий](https://github.com/evgar/kirill_test)***
+### Projects that I've implemented and in which I've been involved:
+* [Multiple form binding (adaptive layout, JavaScript)](https://evgar.github.io/ipt/index.html)     
+***[Repository](https://github.com/evgar/list-attached-form)***
 
 ---
 
-* [Сайт клинингового агенства (верстка адаптивного лендинга с применением Twitter Bootstrap)](https://evgar.github.io/abricos/index.html)     
-***[Репозиторий](https://github.com/evgar/abricos_site)***
+* [Datatable with multiple filtration option(adaptive layout, JavaScript)](https://evgar.github.io/ipt/index.html)     
+***[Repository](https://github.com/evgar/dashboard)***
 
 ---
 
-* Интернет-магазин детских товаров (адаптивная верстка с применением Twitter Bootstrap, командная разработка)
+* [Promosite](https://evgar.github.io/promo_site/index.html)     
+***[Repository](https://github.com/evgar/kirill_test)***
 
-	* [Корзина](http://evgar.esy.es/some_shop/some_shop_viewed.php)
+---
 
-	* [Сраница тематической подборки товаров](http://evgar.esy.es/some_shop/some_shop_wishlist_item.php)
+* Children's goods shop (Twitter Bootstrap)
 
-	* [Страница статуса заказа](http://evgar.esy.es/some_shop/some_shop_order.php)
+	* [Shopping cart](http://evgar.esy.es/some_shop/some_shop_viewed.php)
 
-	* [Список заказов](http://evgar.esy.es/some_shop/some_shop_orders.php)
+	* [Subject selection of goods page](http://evgar.esy.es/some_shop/some_shop_wishlist_item.php)
 
-	* [Список желаний](http://evgar.esy.es/some_shop/some_shop_wishlist.php)
+	* [Order status page](http://evgar.esy.es/some_shop/some_shop_order.php)
 
-	* [Персональная информация](http://evgar.esy.es/some_shop/some_shop_personal_info.php)
+	* [Order list page](http://evgar.esy.es/some_shop/some_shop_orders.php)
 
-	* [Страница формы заполнения персональной информации](http://evgar.esy.es/some_shop/some_shop_personal_info_edit_2.php)
+	* [Whish list page](http://evgar.esy.es/some_shop/some_shop_wishlist.php)
 
-	* [Страница подписки на новости](http://evgar.esy.es/some_shop/some_shop_newsletters_edit.php)
+	* [Personal info page](http://evgar.esy.es/some_shop/some_shop_personal_info.php)
 
-	* [Страница оформления заказа](http://evgar.esy.es/some_shop/some_shop_cart.php)
+	* [Personal info form](http://evgar.esy.es/some_shop/some_shop_personal_info_edit_2.php)
 
-	* [Лист ожидания](http://evgar.esy.es/some_shop/some_shop_waitlist.php)
+	* [News subscribe page](http://evgar.esy.es/some_shop/some_shop_newsletters_edit.php)
+
+	* [Making order page](http://evgar.esy.es/some_shop/some_shop_cart.php)
+
+	* [Order in progress page](http://evgar.esy.es/some_shop/some_shop_waitlist.php)
 	 
-   ***[Репозиторий](https://github.com/evgar/kirill_test)***
+   ***[Repository](https://github.com/evgar/kirill_test)***
 
 ---
 
-* [Морской бой на JavaScript](https://evgar.github.io/battleship/index.html)
-
-
-
-
->Чтобы cкачать мое портфолио, введите в консоль:  
-
-		git clone https://github.com/evgar/evgar.github.io portfolio  
+* [Sea Fight game (JavaScript)](https://evgar.github.io/battleship/index.html)
