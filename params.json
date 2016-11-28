@@ -1,6 +1,6 @@
 {
   "name": "Eugene Garichev portfolio",
   "tagline": "Projects that I've implemented and in which I've been involved",
-  "body": "Portfolio\r\n=========\r\n\r\n* [Multiple form binding (jQuery, jQuery UI)](https://evgar.github.io/list_attached_form/index.html)     \r\n***[Repository](https://github.com/evgar/list-attached-form)***\r\n\r\n---\r\n\r\n* [Datatable with multiple filtration option(adaptive layout, JavaScript)](https://evgar.github.io/ipt/index.html)     \r\n***[Repository](https://github.com/evgar/dashboard)***\r\n\r\n---\r\n\r\n* [Battleship game (JavaScript)](https://evgar.github.io/battleship/index.html)",
+  "body": "Portfolio\r\n=========\r\n\r\n* [Multiple form binding (jQuery, jQuery UI)](https://evgar.github.io/list_attached_form/index.html)     \r\n***[Repository](https://github.com/evgar/list-attached-form)***\r\n\r\n---\r\n\r\n* [Datatable with multiple filtration option(adaptive layout, JavaScript)](https://evgar.github.io/ipt/index.html)     \r\n***[Repository](https://github.com/evgar/dashboard)***\r\n\r\n---\r\n\r\n* [Battleship game (JavaScript)](https://evgar.github.io/battleship/index.html)\r\n***[Repository](https://github.com/evgar/sea_battle)***",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
