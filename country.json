@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "ok": true,
+    "status": 200
+  },
+  "data": {
+    "countries": [
+      {
+        "id": 1,
+        "title": "Ukraine",
+        "iso3": "UKR"
+      },
+      {
+        "id": 2,
+        "title": "Great Britain",
+        "iso3": "GBR"
+      },
+      {
+        "id": 3,
+        "title": "Germany",
+        "iso3": "GRM"
+      }
+    ]
+  }
+}
