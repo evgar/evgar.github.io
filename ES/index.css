@@ -1,0 +1,21 @@
+.header-img {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.main-img {
+	width: 100%;
+	height: auto;
+	margin-top: 302px;
+}
+
+.banner-img {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+}
+
