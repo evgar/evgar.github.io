@@ -1,5 +1,5 @@
 const body = document.querySelector('body')
 body.addEventListener('click',
-  () => {window.location.replace("https://itunes.apple.com/au/app/evening-standard/id542140360#?platform=iphone")}
+  () => {window.location.replace("https://itunes.apple.com/us/app/amazon-app-shop-scan-compare/id297606951")}
 
 )
